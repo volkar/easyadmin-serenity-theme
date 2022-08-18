@@ -1,10 +1,10 @@
 # EasyAdmin Serenity theme
 
 Dark version:
-![EasyAdmin Serenity dark theme](https://github.com/volkar/easyadmin-serenity-theme/)
+![EasyAdmin Serenity dark theme](https://github.com/volkar/easyadmin-serenity-theme/blob/main/preview/serenity-preview-dark.jpg?raw=true)
 
 Light version:
-![EasyAdmin Serenity light theme](https://github.com/volkar/easyadmin-serenity-theme/)
+![EasyAdmin Serenity light theme](https://github.com/volkar/easyadmin-serenity-theme/blob/main/preview/serenity-preview-light.jpg?raw=true)
 
 ## Installation
 You can include this theme in AdminDashboardController.php:
