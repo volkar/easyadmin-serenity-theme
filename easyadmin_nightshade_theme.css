@@ -1,0 +1,334 @@
+.ea-dark-scheme {
+    --color-primary: #008fd9 !important;
+
+    --darkest-bg: #0d1117;
+    --darker-bg: #12161c;
+    --dark-bg: #161b22;
+    --border: #1b262f;
+    --white: #ecf2f8;
+    --faded-white: #3f6888;
+
+    --body-bg: var(--dark-bg);
+    --responsive-header-bg: var(--darkest-bg);
+    --responsive-header-border-color: var(--darkest-bg);
+    --responsive-header-logo-color: var(--white);
+    --responsive-table-label-color: var(--faded-white);
+    --responsive-table-row-border-color: var(--border);
+    --sidebar-bg: var(--darkest-bg);
+    --sidebar-border-color: var(--darkest-bg);
+    --sidebar-logo-color: var(--white);
+    --sidebar-menu-color: var(--color-primary);
+    --sidebar-menu-badge-bg: var(--darker-bg);
+    --sidebar-menu-badge-color: var(--white);
+    --sidebar-menu-badge-active-bg: var(--color-primary);
+    --sidebar-menu-badge-active-color: var(--white);
+    --sidebar-menu-submenu-color: var(--faded-white);
+    --sidebar-menu-header-color: var(--white);
+    --sidebar-menu-icon-color: var(--color-primary);
+    --sidebar-menu-active-item-bg: var(--dark-bg);
+    --sidebar-menu-active-item-color: var(--white);
+    --sidebar-menu-compact-hover-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
+    --resize-handler-hover-bg: var(--color-primary);
+    --content-section-border-color: var(--dark-bg);
+    --content-search-input-bg: var(--body-bg);
+    --content-search-icon-color: var(--faded-white);
+    --content-search-reset-button-bg: var(--darkest-bg);
+    --content-search-reset-button-color: var(--color-primary);
+    --content-search-reset-button-hover-bg: var(--color-primary);
+    --content-search-reset-button-hover-color: var(--white);
+    --content-top-border-color: var(--border);
+    --content-bg: var(--dark-bg);
+    --user-avatar-icon-bg: var(--darkest-bg);
+    --user-avatar-icon-color: var(--faded-white);
+    --user-name-color: var(--faded-white);
+    --user-menu-impersonated-link-color: var(--color-primary);
+    --popover-bg: var(--darkest-bg);
+    --popover-border-color: var(--dark-bg);
+    --popover-color: var(--white);
+    --popover-shadow: var(--shadow-xl);
+    --popover-max-width: 480px;
+    --dropdown-toggle-bg: var(--darker-bg);
+    --dropdown-toggle-color: var(--white);
+    --dropdown-toggle-border-color: var(--dark-bg);
+    --dropdown-toggle-hover-border-color: var(--faded-white);
+    --dropdown-bg: var(--darkest-bg);
+    --dropdown-color: var(--white);
+    --dropdown-border-color: var(--darkest-bg);
+    --dropdown-link-color: var(--color-primary);
+    --dropdown-link-hover-bg: var(--dark-bg);
+    --dropdown-icon-color: var(--color-primary);
+    --dropdown-appearance-icon-color: var(--white);
+    --dropdown-appearance-active-item-bg: var(--dark-bg);
+    --dropdown-appearance-active-item-color: var(--white);
+    --datagrid-noresults-placeholder-bg: var(--darker-bg);
+    --datagrid-hidden-results-gradient-bg: var(--darker-bg);
+    --table-thead-color: var(--white);
+    --table-cell-color: var(--white);
+    --table-thead-marker-color: var(--faded-white);
+    --table-cell-border-color: var(--border);
+    --table-hover-cell-bg: var(--darker-bg);
+    --table-selected-cell-bg: var(--faded-white);
+    --table-thead-sorted-color: var(--color-primary);
+    --table-thead-sorted-marker-color: var(--color-primary);
+    --datalist-border-color: var(--border);
+    --datalist-label-color: var(--faded-white);
+    --datalist-value-color: var(--white);
+    --pagination-color: var(--color-primary);
+    --pagination-hover-border-color: transparent;
+    --pagination-active-bg: var(--color-primary);
+    --pagination-active-color: var(--white);
+    --field-language-badge-border-color: var(--faded-white);
+    --field-country-flag-border-color: var(--faded-white);
+    --modal-bg: var(--dark-bg);
+    --modal-border-color: transparent;
+    --modal-header-bg: var(--darker-bg);
+    --modal-footer-bg: var(--darkest-bg);
+    --modal-title-color: var(--white);
+    --pagination-disabled-color: var(--faded-white);
+    --form-label-color: var(--faded-white);
+    --form-control-bg: var(--darkest-bg);
+    --form-input-border-color: var(--darkest-bg);
+    --form-input-hover-border-color: var(--white);
+    --form-input-shadow: 0;
+    --form-input-hover-shadow: 0;
+    --form-input-error-shadow: 0 0 0 1px rgba(43, 45, 80, 0), 0 0 0 1px var(--red-700), 0 0 0 2px var(--red-900), 0 1px 1px rgba(0, 0, 0, .08);
+    --form-input-text-color: var(--true-gray-200);
+    --form-input-group-text-bg: var(--true-gray-800);
+    --form-input-group-text-border-color: var(--true-gray-600);
+    --form-switch-bg: var(--dark-bg);
+    --form-switch-border-color: var(--color-primary);
+    --form-switch-checked-bg: var(--color-primary);
+    --form-type-check-input-border-color: var(--color-primary);
+    --form-type-check-input-box-shadow: 0 1px 2px 0 var(--true-gray-800);
+    --form-type-check-input-checked-bg: var(--color-primary);
+    --form-type-text-editor-toolbar-bg: var(--dark-bg);
+    --form-type-text-editor-toolbar-button-color: var(--white);
+    --form-type-text-editor-toolbar-button-hover-color: var(--border);
+    --form-type-text-editor-toolbar-button-active-bg: var(--faded-white);
+    --form-type-text-editor-toolbar-button-active-color: var(--white);
+    --form-type-text-editor-dialog-bg: var(--darker-bg);
+    --form-type-text-editor-dialog-box-shadow: 0 4px 12px var(--darkest-bg);
+    --form-type-text-editor-content-pre-bg: var(--darker-bg);
+    --form-type-text-editor-content-pre-color: var(--white);
+    --form-type-collection-item-collapsed-hover-bg: var(--true-gray-800);
+    --form-type-autocomplete-dropdown-bg: var(--darkest-bg);
+    --form-type-autocomplete-dropdown-input-wrapper-bg: var(--darkest-bg);
+    --form-type-autocomplete-dropdown-input-border-color: transparent;
+    --form-type-autocomplete-dropdown-active-item-bg: var(--faded-white);
+    --form-type-autocomplete-close-button-bg: var(--dark-bg);
+    --form-type-autocomplete-close-button-hover-bg: var(--faded-white);
+    --form-type-autocomplete-optgroup-bg: var(--form-type-autocomplete-dropdown-bg);
+    --form-type-autocomplete-optgroup-color: var(--true-gray-400);
+    --form-type-autocomplete-multi-item-bg: var(--true-gray-700);
+    --form-type-autocomplete-multi-item-border-color: var(--true-gray-500);
+    --form-type-autocomplete-multi-item-remove-button-hover-bg: var(--true-gray-800);
+    --form-help-color: var(--true-gray-500);
+    --form-help-error-color: var(--true-gray-200);
+    --form-help-active-color: var(--true-gray-300);
+    --form-tabs-border-color: var(--true-gray-200);
+    --form-panel-header-color: var(--true-gray-300);
+    --form-panel-help-color: var(--true-gray-500);
+    --form-panel-header-border-color: var(--true-gray-600);
+    --form-panel-icon-color: var(--true-gray-500);
+    --form-panel-collapse-marker-color: var(--true-gray-400);
+    --form-collection-item-collapse-marker-color: var(--true-gray-400);
+    --badge-box-shadow: inset 0 0 0 1px hsla(0, 0%, 96%, .3);
+    --badge-boolean-false-bg: hsla(0, 0%, 96%, .1);
+    --badge-boolean-false-box-shadow: inset 0 0 0 1px hsla(0, 0%, 96%, .3);
+    --badge-boolean-false-color: var(--true-gray-200);
+    --badge-boolean-true-bg: rgba(3, 102, 214, .18);
+    --badge-boolean-true-box-shadow: inset 0 0 0 1px rgba(90, 168, 252, .3);
+    --badge-boolean-true-color: #5aa8fc;
+    --badge-success-bg: rgba(22, 135, 0, .18);
+    --badge-success-box-shadow: inset 0 0 0 1px rgba(39, 236, 0, .3);
+    --badge-success-color: var(--green-300);
+    --badge-warning-bg: rgba(251, 202, 4, .18);
+    --badge-warning-box-shadow: inset 0 0 0 1px rgba(250, 201, 5, .3);
+    --badge-warning-color: var(--yellow-400);
+    --badge-danger-bg: rgba(182, 2, 5, .18);
+    --badge-danger-box-shadow: inset 0 0 0 1px rgba(253, 155, 157, .3);
+    --badge-danger-color: var(--red-300);
+    --badge-info-bg: rgba(3, 102, 214, .18);
+    --badge-info-box-shadow: inset 0 0 0 1px rgba(90, 168, 252, .3);
+    --badge-info-color: #5aa8fc;
+    --badge-primary-bg: rgba(3, 102, 214, .18);
+    --badge-primary-box-shadow: inset 0 0 0 1px rgba(90, 168, 252, .3);
+    --badge-primary-color: #5aa8fc;
+    --badge-secondary-bg: hsla(0, 0%, 96%, .1);
+    --badge-secondary-box-shadow: inset 0 0 0 1px hsla(0, 0%, 96%, .3);
+    --badge-secondary-color: var(--true-gray-200);
+    --badge-light-bg: hsla(0, 0%, 100%, .18);
+    --badge-light-box-shadow: inset 0 0 0 1px hsla(0, 0%, 100%, .3);
+    --badge-light-color: #fff;
+    --badge-dark-bg: rgba(0, 0, 0, .18);
+    --badge-dark-box-shadow: inset 0 0 0 1px hsla(0, 0%, 60%, .3);
+    --badge-dark-color: #999;
+    --button-bg: var(--true-gray-600);
+    --button-color: var(--true-gray-200);
+    --button-hover-color: var(--true-gray-100);
+    --button-active-color: var(--true-gray-100);
+    --button-border-color: var(--true-gray-700);
+    --button-hover-border-color: var(--true-gray-600);
+    --button-shadow: 0;
+    --button-hover-shadow: 0;
+    --button-active-shadow: 0;
+    --button-active-primary-shadow: 0;
+    --button-primary-bg: var(--color-primary);
+    --button-primary-color: var(--white);
+    --button-secondary-bg: var(--darkest-bg);
+    --button-secondary-color: var(--white);
+    --button-info-bg: var(--color-primary);
+    --button-info-color: var(--white);
+    --button-success-bg: var(--color-success);
+    --button-success-color: var(--white);
+    --button-danger-bg: var(--color-danger);
+    --button-danger-color: var(--white);
+    --button-warning-bg: var(--color-warning);
+    --button-warning-color: var(--white);
+    --text-color: var(--white);
+    --text-color-dark: var(--white);
+    --text-color-light: var(--white);
+    --box-shadow-lg: 0 10px 15px -3px rgba(15, 23, 41, .1), 0 4px 6px -2px rgba(15, 23, 41, .05);
+    --content-panel-bg: #f8fafc;
+    --fieldset-bg: #f5f7fa;
+    --code-editor-string-color: #a5d6ff;
+    --code-editor-keyword-color: #ff7b72;
+    --code-editor-comment-color: #7ee787;
+    --code-editor-definition-color: #e36209;
+    --code-editor-variable-color: var(--form-input-text-color);
+    --code-editor-number-color: var(--form-input-text-color);
+    --code-editor-argument-color: #d2a8ff;
+    --code-editor-key-color: #a5d6ff;
+    --code-editor-attribute-color: #7ee787;
+    --code-editor-addition-bg: rgba(46, 160, 67, .3);
+    --code-editor-deletion-bg: rgba(218, 54, 51, .3);
+    --page-login-bg: var(--true-gray-100);
+    --text-blue-600: #075692;
+    --text-green-600: #0d5e42;
+    --text-indigo-600: #3c4caa;
+    --text-red-600: #a11b4c;
+    --text-yellow-600: #943505;
+    --color-primary: #70aefb;
+    --color-success: #7ee787;
+    --color-info: #0679b7;
+    --color-warning: #d97817;
+    --color-danger: var(--red-500);
+    --bs-danger-rgb: 239, 68, 68;
+    --highlight-bg: rgba(210, 153, 34, .4);
+    --text-on-primary: var(--white);
+    --text-muted: var(--faded-white);
+    --link-color: var(--color-primary);
+    --link-hover-color: var(--white);
+    --link-hover-decoration: none;
+    --border-color: var(--border);
+}
+
+.ea-dark-scheme input[type="search"]::placeholder {
+    color: var(--faded-white);
+    opacity: 1;
+}
+.ea-dark-scheme input[type="search"]::-webkit-input-placeholder {
+    color: var(--faded-white);
+}
+.ea-dark-scheme input[type="search"]::-moz-placeholder {
+    color: var(--faded-white);
+}
+.ea-dark-scheme input[type="search"]::-ms-input-placeholder {
+    color: var(--faded-white);
+}
+
+a.dropdown-appearance-button {
+    -webkit-appearance: none;
+}
+
+.ea-dark-scheme a:hover {
+    color: var(--white);
+}
+.ea-dark-scheme a span {
+    transition: color 300ms ease;
+}
+.ea-dark-scheme a:hover span {
+    color: var(--white);
+}
+.ea-dark-scheme #navigation-toggler {
+    opacity: 1;
+    filter: opacity(100%);
+}
+
+.ea-dark-scheme #main-menu .menu-item > a {
+    transition: color 300ms ease;
+}
+.ea-dark-scheme #main-menu .menu-item > a:hover {
+    color: var(--white);
+}
+.ea-dark-scheme #main-menu .menu-item > a .menu-icon {
+    transition: color 300ms ease;
+}
+.ea-dark-scheme #main-menu .menu-item > a:hover .menu-icon {
+    color: var(--white);
+}
+
+.ea-dark-scheme .form-widget .content-search-icon {
+    transition: color 300ms ease;
+}
+.ea-dark-scheme .form-widget:hover .content-search-icon {
+    color: var(--white);
+}
+
+.ea-dark-scheme .user-menu-wrapper .user-name {
+    transition: color 300ms ease;
+}
+.ea-dark-scheme .user-menu-wrapper:hover .user-name {
+    color: var(--white);
+}
+
+.ea-dark-scheme input[type="checkbox"] {
+    transition: border-color 300ms ease;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    background-color: unset;
+    appearance: none;
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: var(--border-radius);
+}
+.ea-dark-scheme input[type="checkbox"]:hover {
+    border-color: var(--white);
+}
+.ea-dark-scheme input[type="checkbox"]:checked {
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 20%27%3e%3cpath fill=%27none%27 stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M6 10l3 3l6-6%27/%3e%3c/svg%3e");
+}
+
+.ea-dark-scheme .form-widget input[type="text"] {
+    font-size: 1.2em;
+    padding: 1.2em 1.2em;
+    transition: border-color 300ms ease;
+}
+
+.ea-dark-scheme .form-widget input[type="text"]:hover {
+    border-color: var(--faded-white);
+}
+.ea-dark-scheme .form-widget input[type="text"]:focus {
+    border-color: var(--white);
+}
+
+.ea-dark-scheme .btn {
+    font-size: 1.1em;
+    padding: 0.5em 0.8em;
+    transition: opacity 300ms ease;
+    opacity: 0.75;
+}
+.ea-dark-scheme .btn:hover {
+    opacity: 1;
+}
+.ea-dark-scheme .page-link:hover {
+    color: var(--white);
+}
+.ea-dark-scheme .ea-lightbox-thumbnail img {
+    padding: 0;
+    border: 0;
+}
+.ea-dark-scheme .basicLightbox__placeholder img {
+    background: black;
+    padding: 0;
+}
