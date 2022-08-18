@@ -1,5 +1,8 @@
 # EasyAdmin Serenity theme
 
+*EasyAdmin is an administration backends for Symfony applications.*
+
+## Preview
 Dark version:
 ![EasyAdmin Serenity dark theme](https://github.com/volkar/easyadmin-serenity-theme/blob/main/preview/serenity-preview-dark.jpg?raw=true)
 
