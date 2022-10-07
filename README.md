@@ -17,6 +17,7 @@ public function configureAssets(): Assets
     return parent::configureAssets()->addCssFile('static/easyadmin_serenity_theme.css');
 }
 ```
+There is also [theme for SonataAdmin](https://github.com/volkar/sonataadmin-nightshade-theme) with this colors.
 
 ## Contact me
 
